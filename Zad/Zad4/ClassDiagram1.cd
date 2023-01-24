@@ -1,0 +1,143 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="FullSignature">
+  <Class Name="zad4.Program">
+    <Position X="1.25" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.OxygenSupply">
+    <Position X="5.75" Y="4" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>OxygenSupply.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zad4.Waste">
+    <Position X="9" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAgAEAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Waste.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zad4.Fuel">
+    <Position X="12" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Fuel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zad4.FoodSupply">
+    <Position X="15" Y="4" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>FoodSupply.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zad4.Human">
+    <Position X="21.5" Y="4.75" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAEAAAAAAAAAAAAAAAAAAAAAAAAAQIAAAABAA=</HashCode>
+      <FileName>Human.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.Engine">
+    <Position X="4.25" Y="9" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>ABAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAAAQAAAAQAAA=</HashCode>
+      <FileName>Engine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.Destination">
+    <Position X="9.5" Y="7.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Destination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.NavigationPanel">
+    <Position X="13.25" Y="9.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAEAAAACIQEgAAQAAAAAAAAIAAIAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>NavigationPanel.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zad4.ScientificProbe">
+    <Position X="15.75" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ScientificProbe.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="zad4.Scientist">
+    <Position X="19" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAAAAAA=</HashCode>
+      <FileName>Scientist.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.Crewmember">
+    <Position X="21.5" Y="8.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Crewmember.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.Captain">
+    <Position X="24" Y="8.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Captain.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.NuclearEngine">
+    <Position X="7" Y="12.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAAAQQAAAAAAA=</HashCode>
+      <FileName>NuclearEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.HydrogenEngine">
+    <Position X="4" Y="12.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>HydrogenEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.DieselEngine">
+    <Position X="1.25" Y="12.25" Width="2.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAIQAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DieselEngine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad4.Submarine">
+    <Position X="0.75" Y="2.5" Width="3.25" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAQAAAAIAAIAAAAAAAAIAQEAACAECQACAQAAAA=</HashCode>
+      <FileName>Submarine.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="zad4.IStorable">
+    <Position X="12.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAACAAgAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IStorable.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="zad4.ITool">
+    <Position X="13.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ITool.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

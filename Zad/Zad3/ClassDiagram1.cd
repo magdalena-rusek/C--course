@@ -1,0 +1,192 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1" MembersFormat="NameAndType">
+  <Comment CommentText="Kompozycja miedzy UkladNerwowy i Mozg ">
+    <Position X="16.537" Y="8.474" Height="0.46" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Kompozycja miedzy UkladKrwionosny i Serce">
+    <Position X="12.467" Y="8.602" Height="0.46" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Kompozycja miedzy UkladPokarmowy i Zoladek i Jelito">
+    <Position X="9.041" Y="8.47" Height="0.648" Width="1.787" />
+  </Comment>
+  <Comment CommentText="Kompozycja miedzy UkladOddechowy i Pluca">
+    <Position X="8.765" Y="3.294" Height="0.489" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Kompozycja miedzy UkladRuchu i Miesnie i Kosci">
+    <Position X="14.993" Y="3.262" Height="0.503" Width="1.802" />
+  </Comment>
+  <Comment CommentText="Zaleznosc miedzy Mozg i Serce">
+    <Position X="1.815" Y="4.282" Height="0.474" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Zaleznosc miedzy Mozg i Jelito">
+    <Position X="6.05" Y="6.688" Height="0.416" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Zaleznosc miedzy Mozg i Pluca">
+    <Position X="1.175" Y="6.427" Height="0.329" Width="1.932" />
+  </Comment>
+  <Comment CommentText="Zaleznosc miedzy Mozg i Zoladek">
+    <Position X="3.502" Y="11.125" Height="0.416" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Zaleznosc miedzy Mozg i Nerki">
+    <Position X="0.538" Y="11.599" Height="0.46" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Zaleznosc miedzy Mozg i miesnie">
+    <Position X="6.045" Y="10.936" Height="0.46" Width="1.7" />
+  </Comment>
+  <Class Name="zad3.CialoCzlowieka">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>CialoCzlowieka.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.NarzadWewnetrzny">
+    <Position X="2.75" Y="2.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>NarzadWewnetrzny.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Serce">
+    <Position X="0.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAABAAAAgAAEAAAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Serce.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Mozg">
+    <Position X="6.5" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAEAAAgACAAAgAACAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Mozg.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Nerki">
+    <Position X="1" Y="9.25" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAgAAAAAAAAAAAAAAAAAAAAABRAAAA=</HashCode>
+      <FileName>Nerki.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Zoladek">
+    <Position X="3.75" Y="9.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAgAAAAAAAAAAAAABAAAAAAAAAAAAA=</HashCode>
+      <FileName>Zoladek.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Pluca">
+    <Position X="0.5" Y="6.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AgAQAAAAAAAAAABgAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>Pluca.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Jelito">
+    <Position X="4.5" Y="6.75" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAACAAAAAAAAAAAAAACAAAAAAA=</HashCode>
+      <FileName>Jelito.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.NarzadZmyslu">
+    <Position X="21.5" Y="2" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgABAAAAAAAAAA=</HashCode>
+      <FileName>NarzadZmyslu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Oczy">
+    <Position X="19" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAIA=</HashCode>
+      <FileName>Oczy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Nos">
+    <Position X="19.75" Y="7.25" Width="3" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAABAAAAAAAAAAAAAAAAAABAAAAEAAAAA=</HashCode>
+      <FileName>Nos.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Uszy">
+    <Position X="24.25" Y="4.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEBAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Uszy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Jezyk">
+    <Position X="24" Y="7.25" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAgAABAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Jezyk.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.UkladNarzadow">
+    <Position X="12.25" Y="2" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UkladNarzadow.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.UkladOddechowy">
+    <Position X="9" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAABAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UkladOddechowy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.UkladPokarmowy">
+    <Position X="9" Y="6.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAEAIAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UkladPokarmowy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.UkladKrwionosny">
+    <Position X="12.25" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAQAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UkladKrwionosny.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.UkladNerwowy">
+    <Position X="15.5" Y="6.75" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>UkladNerwowy.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.UkladRuchu">
+    <Position X="14.75" Y="4" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAgAABAAAAAAAAAQAAAAAAAAAAA=</HashCode>
+      <FileName>UkladRuchu.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Kosci">
+    <Position X="4" Y="4.5" Width="2.25" />
+    <InheritanceLine Type="zad3.NarzadWewnetrzny" FixedToPoint="true">
+      <Path>
+        <Point X="3.625" Y="3.934" />
+        <Point X="3.625" Y="4.184" />
+        <Point X="5.031" Y="4.184" />
+        <Point X="5.031" Y="4.5" />
+      </Path>
+    </InheritanceLine>
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAIAAAAAAAAAAIAAAAA=</HashCode>
+      <FileName>Kosci.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="zad3.Miesnie">
+    <Position X="6" Y="9.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAgAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Miesnie.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
